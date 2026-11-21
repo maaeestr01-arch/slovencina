@@ -1,0 +1,19 @@
+{
+  "name": "Slovenčina — kurz A1–B2",
+  "short_name": "Slovenčina",
+  "description": "Офлайн-курс словацкого: грамматика, упражнения, SRS-повторение",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f8",
+  "theme_color": "#0f766e",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
