@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slovenčina — шпаргалка B1–B2</title>
+<style>
+  :root{ --ink:#111; --muted:#555; --line:#bbb; --accent:#0f766e; }
+  *{ box-sizing:border-box; }
+  body{ font:10.5pt/1.4 -apple-system,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); margin:0; padding:16px 20px; max-width:900px; }
+  h1{ font-size:20pt; margin:0 0 2px; }
+  h2{ font-size:12.5pt; margin:14px 0 6px; padding-bottom:3px; border-bottom:1.5px solid var(--accent); color:var(--accent); }
+  h3{ font-size:10.5pt; margin:10px 0 4px; }
+  p{ margin:4px 0; }
+  ul{ margin:4px 0 6px; padding-left:18px; }
+  li{ margin:2px 0; }
+  table{ border-collapse:collapse; width:100%; margin:4px 0 8px; font-size:9.5pt; }
+  th,td{ border:1px solid var(--line); padding:3px 6px; text-align:left; vertical-align:top; }
+  th{ background:#eef4f3; font-weight:600; }
+  td:first-child{ font-weight:600; white-space:nowrap; }
+  .sk{ color:var(--accent); font-weight:600; }
+  .muted{ color:var(--muted); }
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .note{ border-left:3px solid #b45309; background:#fdf6e9; padding:6px 9px; margin:6px 0; font-size:9.5pt; }
+  .err td:first-child{ color:#b91c1c; text-decoration:line-through; }
+  .ok{ color:#15803d; font-weight:600; }
+  .foot{ margin-top:14px; font-size:8.5pt; color:var(--muted); }
+  @media print{
+    body{ padding:0; max-width:none; font-size:9.5pt; }
+    h2{ break-after:avoid; }
+    table, .two, .note{ break-inside:avoid; }
+    @page{ size:A4; margin:10mm 12mm; }
+  }
+  @media (max-width:640px){ .two{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+
+<h1>Slovenčina — шпаргалка B1–B2</h1>
+<p class="muted">Падежи, времена, вид, модальность, синтаксис и топ-ошибки. Печать/PDF: Ctrl+P → «Сохранить как PDF».</p>
+
+<h2>1. Произношение</h2>
+<div class="two">
+  <div>
+    <ul>
+      <li>Ударение всегда на первом слоге: <span class="sk">BRA-ti-sla-va</span>.</li>
+      <li><span class="sk">y / ý</span> = [i / í]; <span class="sk">ch</span> = [х]; <span class="sk">h</span> = звонкое [г].</li>
+      <li>Долгие <span class="sk">á é í ó ú ý</span> — тянуть вдвое: <span class="sk">byt</span> квартира / <span class="sk">biť</span> бить.</li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li><span class="sk">ô</span> = [уо]: <span class="sk">stôl</span> [стуол].</li>
+      <li>Дифтонги <span class="sk">ia, ie, iu</span> — один слог: <span class="sk">nie</span> [нье].</li>
+      <li>Мягкие: <span class="sk">ď, ť, ň, ľ</span>; <span class="sk">c, č, š, ž, dz, dž</span>.</li>
+    </ul>
+  </div>
+</div>
+
+<h2>2. Шесть падежей</h2>
+<table>
+  <tr><th>Падеж</th><th>Вопрос</th><th>kniha</th><th>stôl</th><th>mesto</th><th>Предлоги</th></tr>
+  <tr><td>nominatív</td><td>kto? čo?</td><td>kniha</td><td>stôl</td><td>mesto</td><td>—</td></tr>
+  <tr><td>genitív</td><td>koho? čoho?</td><td>knihy</td><td>stola</td><td>mesta</td><td>bez, do, z/zo, od, u, vedľa, okolo, počas, okrem, miesto</td></tr>
+  <tr><td>datív</td><td>komu? čomu?</td><td>knihe</td><td>stolu</td><td>mestu</td><td>k/ku, vďaka, naproti, kvôli</td></tr>
+  <tr><td>akuzatív</td><td>koho? čo?</td><td>knihu</td><td>stôl</td><td>mesto</td><td>cez, pre, na, za, o (= через)</td></tr>
+  <tr><td>lokál</td><td>kde? o čom?</td><td>knihe</td><td>stole</td><td>meste</td><td>v/vo, na, o, po, pri</td></tr>
+  <tr><td>inštrumentál</td><td>kým? čím?</td><td>knihou</td><td>stolom</td><td>mestom</td><td>s/so, pred, za, nad, pod, medzi</td></tr>
+</table>
+<div class="note"><b>Место vs направление:</b> <span class="sk">v meste</span> (lok.) — <span class="sk">do mesta</span> (gen.); <span class="sk">na stanici</span> — <span class="sk">na stanicu</span>; <span class="sk">za domom</span> — <span class="sk">za dom</span>. Вопросы: <b>kde?</b> → локатив, <b>kam?</b> → генитив/аккузатив.</div>
+<p><b>Прилагательные:</b> m <span class="sk">nový</span>, f <span class="sk">nová</span>, n <span class="sk">nové</span>; мн. <span class="sk">noví</span> (м. одуш.) / <span class="sk">nové</span>. Акк.: <span class="sk">novú knihu</span>, <span class="sk">nového študenta</span>. Ген.: <span class="sk">nového</span> / <span class="sk">novej</span>. Лок.: <span class="sk">novom</span> / <span class="sk">novej</span>. Инстр.: <span class="sk">novým</span> / <span class="sk">novou</span>.</p>
+<p><b>Одушевлённость:</b> <span class="sk">Vidím študenta</span>, но <span class="sk">Vidím stôl</span>. <b>После отрицания — аккузатив:</b> <span class="sk">Nemám čas</span> (не «času»).</p>
+
+<h2>3. Времена</h2>
+<div class="two">
+  <div>
+    <h3>byť</h3>
+    <table>
+      <tr><th>Лицо</th><th>Наст.</th><th>Прош.</th><th>Буд.</th></tr>
+      <tr><td>ja</td><td>som</td><td>bol / bola som</td><td>budem</td></tr>
+      <tr><td>ty</td><td>si</td><td>bol / bola si</td><td>budeš</td></tr>
+      <tr><td>on / ona</td><td>je</td><td>bol / bola</td><td>bude</td></tr>
+      <tr><td>my</td><td>sme</td><td>boli sme</td><td>budeme</td></tr>
+      <tr><td>vy</td><td>ste</td><td>boli ste</td><td>budete</td></tr>
+      <tr><td>oni</td><td>sú</td><td>boli</td><td>budú</td></tr>
+    </table>
+  </div>
+  <div>
+    <h3>robiť</h3>
+    <table>
+      <tr><th>Лицо</th><th>Наст.</th><th>Прош. (m)</th></tr>
+      <tr><td>ja</td><td>robím</td><td>robil som</td></tr>
+      <tr><td>ty</td><td>robíš</td><td>robil si</td></tr>
+      <tr><td>on</td><td>robí</td><td>robil</td></tr>
+      <tr><td>my</td><td>robíme</td><td>robili sme</td></tr>
+      <tr><td>vy</td><td>robíte</td><td>robili ste</td></tr>
+      <tr><td>oni</td><td>robia</td><td>robili</td></tr>
+    </table>
+  </div>
+</div>
+<p><b>Вспомогательное только 1–2 лицо:</b> <span class="sk">Bola doma</span> (не «Bola som doma» — это «я была бы»/ошибка). <b>Неправильные:</b> <span class="sk">ísť → išiel</span>, <span class="sk">jesť → jedol</span>, <span class="sk">prísť → prišiel</span>.</p>
+
+<h2>4. Вид глагола</h2>
+<div class="two">
+  <div>
+    <table>
+      <tr><th>Несов.</th><th>Сов.</th></tr>
+      <tr><td>robiť</td><td>urobiť</td></tr>
+      <tr><td>písať</td><td>napísať</td></tr>
+      <tr><td>čítať</td><td>prečítať</td></tr>
+      <tr><td>jesť</td><td>zjesť</td></tr>
+      <tr><td>kupovať</td><td>kúpiť</td></tr>
+      <tr><td>hovoriť</td><td>povedať</td></tr>
+    </table>
+  </div>
+  <div>
+    <p><b>Совершенный вид = будущее:</b> <span class="sk">urobím</span> сделаю, <span class="sk">napíšem</span> напишу, <span class="sk">prečítam</span> прочитаю.</p>
+    <p><b>Семья ísť:</b> <span class="sk">pôjdem</span> пойду, <span class="sk">prídem</span> приду, <span class="sk">odídem</span> уйду, <span class="sk">chodím</span> хожу.</p>
+    <p class="muted">Маркеры: <span class="sk">každý deň, vždy, často</span> → несов.; <span class="sk">už, práve, nakoniec</span> → сов.</p>
+  </div>
+</div>
+
+<h2>5. Модальные глаголы</h2>
+<table>
+  <tr><th>Инфинитив</th><th>ja</th><th>ty</th><th>on / ona</th><th>my</th><th>vy</th><th>oni</th></tr>
+  <tr><td>chcieť</td><td>chcem</td><td>chceš</td><td>chce</td><td>chceme</td><td>chcete</td><td>chcú</td></tr>
+  <tr><td>môcť</td><td>môžem</td><td>môžeš</td><td>môže</td><td>môžeme</td><td>môžete</td><td>môžu</td></tr>
+  <tr><td>musieť</td><td>musím</td><td>musíš</td><td>musí</td><td>musíme</td><td>musíte</td><td>musia</td></tr>
+  <tr><td>smieť</td><td>smiem</td><td>smieš</td><td>smie</td><td>smieme</td><td>smiete</td><td>smú</td></tr>
+  <tr><td>vedieť</td><td>viem</td><td>vieš</td><td>vie</td><td>vieme</td><td>viete</td><td>vedia</td></tr>
+</table>
+<p class="muted"><span class="sk">nesmiem</span> нельзя (запрет) ≠ <span class="sk">nemusím</span> не нужно. <span class="sk">Treba ísť</span> нужно идти. <span class="sk">Dá sa to</span> это возможно.</p>
+
+<h2>6. Кондиционал и императив</h2>
+<div class="two">
+  <div>
+    <table>
+      <tr><th>Лицо</th><th>Кондиционал</th></tr>
+      <tr><td>ja (m / f)</td><td>robil by som / robila by som</td></tr>
+      <tr><td>ty</td><td>robil by si</td></tr>
+      <tr><td>on / ona</td><td>robil by / robila by</td></tr>
+      <tr><td>my</td><td>robili by sme</td></tr>
+      <tr><td>vy</td><td>robili by ste</td></tr>
+      <tr><td>oni</td><td>robili by</td></tr>
+    </table>
+  </div>
+  <div>
+    <p><b>Императив:</b> <span class="sk">rob! robte! robme!</span> • <span class="sk">čítaj! čítajte!</span> • <span class="sk">píš!</span> • <span class="sk">iď! / poď!</span> • <span class="sk">buď!</span></p>
+    <p><b>Отрицание:</b> <span class="sk">nerob! nehovor!</span></p>
+    <p class="muted">Вежливо: <span class="sk">Mohol by si mi pomôcť?</span></p>
+  </div>
+</div>
+
+<h2>7. Клитики и порядок слов</h2>
+<div class="two">
+  <div>
+    <p><b>Порядок:</b> <span class="sk">som / si / sme / ste</span> → <span class="sk">sa / si</span> → датив (<span class="sk">mi, ti, mu</span>) → аккузатив (<span class="sk">ma, ťa, ho, ju</span>).</p>
+    <p><span class="sk">Dal som mu ju.</span> — «Я дал ему её».</p>
+    <p><b>Второе место:</b> <span class="sk">Včera som bol doma.</span> Не «Včera bol som doma».</p>
+  </div>
+  <div>
+    <p><b>Клитика / полная:</b> <span class="sk">ma / mňa</span>, <span class="sk">ťa / teba</span>, <span class="sk">ho / neho</span>, <span class="sk">ju / ňu</span>, <span class="sk">mi / mne</span>, <span class="sk">mu / nemu</span>.</p>
+    <p class="muted">После предлога — полная форма: <span class="sk">pre mňa, bez neho, k nemu</span>.</p>
+    <p><b>SVО:</b> <span class="sk">Peter číta knihu.</span> Вынос в начало = акцент: <span class="sk">Knihu číta Peter.</span></p>
+  </div>
+</div>
+
+<h2>8. Синтаксис: союзы</h2>
+<table>
+  <tr><th>Союз</th><th>Значение</th><th>Союз</th><th>Значение</th></tr>
+  <tr><td>že</td><td>что</td><td>aby</td><td>чтобы (+ причастие)</td></tr>
+  <tr><td>keď</td><td>когда</td><td>keby</td><td>если бы (+ кондиционал)</td></tr>
+  <tr><td>ak</td><td>если</td><td>hoci</td><td>хотя</td></tr>
+  <tr><td>pretože / lebo</td><td>потому что</td><td>keďže</td><td>поскольку</td></tr>
+  <tr><td>ktorý / ktorá / ktoré</td><td>который</td><td>či</td><td>ли</td></tr>
+</table>
+<div class="note"><b>keby</b> = «если бы», <b>ak</b> = «если» (реальное). Не говорят «ak by som» — только <span class="sk">keby som</span>. После <span class="sk">aby</span> — причастие на -l: <span class="sk">aby som prišiel</span>.</div>
+
+<h2>9. Топ-ошибки русскоязычных</h2>
+<table class="err">
+  <tr><th>Неправильно</th><th>Правильно</th><th>Почему</th></tr>
+  <tr><td>Nemám času.</td><td class="ok">Nemám čas.</td><td>после отрицания — аккузатив</td></tr>
+  <tr><td>Bolí mi hlava.</td><td class="ok">Bolí ma hlava.</td><td>опытывающий в аккузативе</td></tr>
+  <tr><td>Idem do lekára.</td><td class="ok">Idem k lekárovi.</td><td>«к врачу» = k + датив</td></tr>
+  <tr><td>Hovorím z lekárom.</td><td class="ok">Hovorím s lekárom.</td><td>s + инструментал</td></tr>
+  <tr><td>Idem v mesto.</td><td class="ok">Idem do mesta.</td><td>направление = do + генитив</td></tr>
+  <tr><td>Sa učím po slovensky.</td><td class="ok">Učím sa po slovensky.</td><td>клитика не первая</td></tr>
+  <tr><td>Budem ísť.</td><td class="ok">Pôjdem.</td><td>ísť → pôjdem</td></tr>
+  <tr><td>Nesmiem = nemusím</td><td class="ok">нельзя ≠ не нужно</td><td>разные значения</td></tr>
+  <tr><td>Bola som doma (о 3-м лице)</td><td class="ok">Bola doma.</td><td>som только 1–2 лицо</td></tr>
+  <tr><td>Myslím, máš pravdu.</td><td class="ok">Myslím, že máš pravdu.</td><td>союз že обязателен</td></tr>
+</table>
+
+<h2>10. Мини-план повторения</h2>
+<ul>
+  <li><b>каждый день</b> — 10–15 мин SRS-карточек.</li>
+  <li><b>2–3 раза в неделю</b> — чтение вслух + аудирование (раздел «Počúvanie»).</li>
+  <li><b>раз в неделю</b> — 5 предложений письма на тему недели.</li>
+  <li><b>раз в месяц</b> — смешанный тест в приложении, сравнение результата.</li>
+  <li><b>раз в неделю</b> — 1 минута монолога на диктофон, сравнение с прошлой записью.</li>
+</ul>
+
+<p class="foot">Slovenčina · офлайн-курс · 40 юнитов · шпаргалка B1–B2. Печать: Ctrl+P (Windows) или ⋮ → «Печать» в Chrome Android → «Сохранить как PDF».</p>
+
+</body>
+</html>
